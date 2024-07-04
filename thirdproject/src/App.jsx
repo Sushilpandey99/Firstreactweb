@@ -1,11 +1,11 @@
-import {createBrowserRouter, RouterProvider} from 'react-router-dom'
-
+import {createBrowserRouter, Form, RouterProvider} from 'react-router-dom'
+import { Homelayout } from './pages/HomeLayout';
 
 const router = createBrowserRouter(
  [
   {
     path:"/",
-    element:<h1 >hello </h1>
+    element: <Homelayout/>
   },
   {
     path:"/about",
